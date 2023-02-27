@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+.icon, .searchicon, .icontext, .Notifications{
+    padding-top: 10px;
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.image i{
+    font-size:x-small;
+    color: greenyellow;
+    position:relative;
+    right: 20%;
+    bottom: 60%;
+}
+.searchicon{
+    width: 20%;
+}
+.searchicon input{
+    border: none;
+}
+.Notifications{
+    width: 20%;
+}
+.icon i{
+    color: blue;
+    font-size:x-large;
+}
+.mainContainer{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    background-color: rgb(245, 237, 237);
+    justify-content: center;
+    align-items: center;
+
+
+}
+.subMainCont{
+    width: 95%;
+    /* height: 98vh; */
+   /* margin: 5px 10px 5px 10px; */
+   padding-top: 10px;
+   padding-bottom: 10px;
+    display: flex;
+}
+.left{
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border:6px solid rgb(245, 237, 237);
+   
+}
+.middle{
+    width: 50%;
+    border:6px solid rgb(245, 237, 237);
+   
+}
+.right{
+    width: 25%;
+    /* background-color: aqua; */
+    /* border: 20px solid brown; */
+    border:6px solid rgb(245, 237, 237);
+   
+}
+.leftName{
+    width: 90%;
+    margin-left: 10px;
+}
+.leftName p{
+    color: darkorange;
+}
+.leftimage{
+    height:145px;
+}
+.leftimage1 img{
+    width: 100%;
+    height:100px;
+}
+.leftimage2 img{
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    position:relative;
+    left: 10px;
+    bottom: 30px;
+    border-radius: 50%;
+}
+.table{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.leftitems{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    /* width: 100%; */
+    border-top: 2px solid rgb(245, 237, 237);
+
+}
+.litems1, .litems2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.litems1{
+    border-right: 2px solid rgb(245, 237, 237);
+}
+.litems2 img{
+    width: 20px;
+    height: 15px;
+    position:relative;
+    top: 3px;
+}
+.leftcontent,.rightMiddle{
+    border-top: 8px solid rgb(245, 237, 237);
+}
+.subLeftContent{
+    margin-left: 10px;
+}
+.subLeftContent i, .leftitems i,.leftitems img{
+    padding-right: 10px;
+}
+.subLeftContent h3{
+    padding-top: 15px;
+}
+.df{
+    display: flex;
+}
+.dfsb{
+    display: flex;
+    justify-content: space-between;
+}
+.dfsa{
+    display: flex;
+    justify-content:space-around;
+}
+.jcac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jc{
+    display: flex;
+    justify-content: center;
+}
+.jcacDiv10{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jcacDiv15{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jcacDiv20{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jcacDiv10 p{
+    color: blue;
+}
+.subMiddleTop img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.submiddle{
+    background-color: white;
+}
+.subMiddleTop textarea{
+    border: none;
+}
+.post{
+    width: 25%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+
+}
+.postf{
+    width: 25%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid blue;
+
+}
+.postf button{
+    width: 100%;
+    height: 7vh;
+    background-color: blue;
+    border: none;
+    color: white;
+
+}
+.h51{
+    padding-top: 20px;
+}
+.h52,.readmore{
+    padding-top: 10px;
+}
+.rightMiddleTop, .rightMiddle{
+    background-color: white;
+}
+.readmore{
+    color: blue;
+}
+.rightMiddle{
+    text-align: center;
+    padding-top: 20px;
+}
+.rightMiddle .df{
+    margin-left: 39%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.rightMiddle button{
+    width: 100px;
+    height: 4vh;
+    background-color: transparent;
+    border-radius: 20px;
+    color:blue;
+    border: 1px solid blue;
+}
+.df .subMiddleTop{
+    padding-right: 9px;
+}
+.rightBottom{
+    text-align: center;
+    padding-top: 40px;
+}
+.rightBottom .icon{
+    color: blue;
+}
+.rightBottom .icon .copy{
+    color: grey;
+    font-size:small;
+}
